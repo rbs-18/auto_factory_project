@@ -20,10 +20,15 @@ API service for creating detail's cards and calculating full price of car
 *Request sample*
 ```json
 {
-    "id": 1,
     "type_name": "Hood",
     "price": 1000.0,
-    "amount": 1
+    "amount": 1,
+    "parameters": [
+        {
+            "name": "material",
+            "value": "aluminum"
+        }
+    ]
 }
 ```
 *Responses*
