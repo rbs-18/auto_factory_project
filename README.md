@@ -1,6 +1,6 @@
 # auto_factory_project
 ## DESCRIPTION
-API service for creating detail's cards anf calculating full price of car
+API service for creating detail's cards and calculating full price of car
 
 ## ENDPOINTS
 
@@ -49,7 +49,7 @@ API service for creating detail's cards anf calculating full price of car
 *Responses*
 
 200
-- #### CREATING NEW COST (CALCULATE)
+- #### CREATING NEW COST (CALCULATE PRICE)
 
  `api/v1/costs/` `POST`
 
